@@ -1,6 +1,6 @@
-*{
+body{
     font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
+    margin: 0 !important;
 }
 .text-title{
     font-family: Arial, Helvetica, sans-serif;
@@ -66,4 +66,26 @@ form >.btn{
 .carousel-item > img{
     width: 100%;
     height: 591px;
+}
+
+.menu-right{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+ .menu-right > input , .menu-right > button {
+    margin: 0;
+ }
+
+.nav-links{
+    font-size: 16px !important;
+    color: rgba(13, 110, 253, 1) !important;
+    font-weight: 400 !important;
+
+}
+
+@media (min-width:992px){
+    .company{
+        display: none;
+    }
 }
